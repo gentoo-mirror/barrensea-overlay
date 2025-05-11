@@ -1,0 +1,13 @@
+BDEPEND=app-alternatives/bc app-alternatives/lex dev-util/pahole virtual/libelf app-alternatives/yacc app-crypt/sbsigntools
+DEFINED_PHASES=compile configure install prepare
+DESCRIPTION=Linux Kernel with cjkpatch
+EAPI=8
+HOMEPAGE=https://github.com/barrensea/barrensea-overlay
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 ~arm arm64 ~hppa ~loong ~ppc ppc64 ~riscv ~sparc x86
+LICENSE=GPL-2
+PDEPEND=sys-kernel/linux-firmware
+SLOT=0
+SRC_URI=https://mirrors.tuna.tsinghua.edu.cn/kernel/v6.x/linux-6.12.27.tar.xz https://ghproxy.net/https://github.com/donjuanplatinum/notes/blob/main/config https://ghproxy.net/https://github.com/bigshans/cjktty-patches/blob/master/cjktty-add-cjk32x32-font-data.patch https://ghproxy.net/https://github.com/bigshans/cjktty-patches/blob/master/v6.x/cjktty-6.9.patch
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_md5_=dbedb66265a32fa4d87792a9f4e1cfc5
