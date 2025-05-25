@@ -9,4 +9,4 @@ RDEPEND=virtual/krb5
 SLOT=0
 SRC_URI=https://dldir1.qq.com/qqfile/qq/QQNT/Linux/QQ_3.2.17_250519_amd64_01.deb -> qq.deb
 _eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
-_md5_=bb844d67e1feee2c7252bc1c7306e590
+_md5_=d834a63847fb6434c19e66f72adb39c4
