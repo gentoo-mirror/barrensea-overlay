@@ -17,12 +17,11 @@ RDEPEND="
 "
 S="${WORKDIR}"
 src_unpack() {
-	:
+	unpack_deb ${DISTDIR}/qq.deb
 }
 
 src_install() {
 	dodir /
-	unpack_deb ${DISTDIR}/qq.deb
 	mv "${S}/usr/share/applications/qq.desktop" "${S}/usr/share/applications/QQ.desktop" || die
 	cp -a ${S}/* ${ED}/
 	cd ${S}

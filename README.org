@@ -7,9 +7,10 @@ This is a overlay of Gentoo Linux
   emaint sync -r barrensea-overlay
 #+end_src
 # Packages
-| Packages                    | Description                                                |
-| app-emacs/barrensea-emacs   | The barrensea emacs config                                 |
-| games-emulation/ryujinx-bin | Experimental Nintendo Switch Emulator binary written in C# |
-| games-emulation/ryujinx     | Experimental Nintendo Switch Emulator written in C#        |
-| sys-kernel/barrensea-kernel | Linux Kernel with cjkpatch                                 |
-| net-im/linuxqq              | The new version of the official linux-qq                   |
+| Packages                    | Description                                                                |
+| app-emacs/barrensea-emacs   | The barrensea emacs config                                                 |
+| games-emulation/ryujinx-bin | Experimental Nintendo Switch Emulator binary written in C#                 |
+| games-emulation/ryujinx     | Experimental Nintendo Switch Emulator written in C#                        |
+| sys-kernel/barrensea-kernel | Linux Kernel with cjkpatch                                                 |
+| net-im/linuxqq              | The new version of the official linux-qq                                   |
+| games-misc/hmcl             | A Minecraft Launcher which is multi-functional, cross-platform and popular |
