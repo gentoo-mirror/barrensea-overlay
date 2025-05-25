@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=hmcl-launcher
+Comment=A Minecraft Launcher which is multi-functional, cross-platform and popular
+Exec=/opt/hmcl/hmcl.sh
+Icon=/opt/hmcl/icon.png
+Terminal=false
+Type=Application
+Categories=Game
