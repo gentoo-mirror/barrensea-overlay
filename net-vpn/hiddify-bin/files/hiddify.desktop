@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=2.0.5+20005
+Name=Hiddify
+GenericName=Hiddify
+Icon=hiddify
+Exec=/opt/hiddify/hiddify %U
+Categories=Network;
+Keywords=Hiddify;Proxy;VPN;V2ray;Nekoray;Xray;Psiphon;OpenVPN;
+StartupNotify=true
