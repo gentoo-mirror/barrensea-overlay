@@ -22,9 +22,9 @@ src_unpack() {
 
 src_install() {
 	dodir /opt
-	cp -a ${S}/usr/share/hiddify ${ED}/opt/ || die
-	rm -rf  ${S}/usr/share/hiddify || die
-	cp ${FILESDIR}/hiddify.desktop ${S}/usr/share/applications/hiddify.desktop ||die
+	cp -a ${S}/usr/share/${MYPN} ${ED}/opt/ || die
+	rm -rf  ${S}/usr/share/${MYPN} || die
+	cp ${FILESDIR}/${MYPN}.desktop ${S}/usr/share/applications/${MYPN}.desktop ||die
 	dodir /
 	cp -a ${S}/* ${ED}/ ||die
 }
