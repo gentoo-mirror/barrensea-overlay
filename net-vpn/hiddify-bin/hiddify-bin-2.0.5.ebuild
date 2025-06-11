@@ -14,6 +14,7 @@ SLOT="0"
 IUSE=""
 DEPEND=""
 RDEPEND="
+	dev-libs/libayatana-appindicator
 "
 S="${WORKDIR}"
 src_unpack() {
