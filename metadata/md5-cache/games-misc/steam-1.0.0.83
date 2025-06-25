@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm unpack
+DESCRIPTION=Launcher for the Steam software distribution service Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.
+EAPI=8
+HOMEPAGE=https://store.steampowered.com/
+INHERIT=unpacker desktop xdg-utils
+IUSE=+ebuild +rime
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=net-misc/curl sys-apps/dbus
+SLOT=0
+SRC_URI=https://repo.steampowered.com/steam/archive/precise/steam-launcher_1.0.0.83_amd64.deb -> steam.deb
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=5aa1ba4ea633f30ed0745dfe69a42ca8
