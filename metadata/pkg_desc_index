@@ -4,7 +4,8 @@ games-emulation/ryujinx-bin 1.3.1: Experimental Nintendo Switch Emulator written
 games-misc/hmcl 3.6.12: A Minecraft Launcher which is multi-functional, cross-platform and popular
 games-misc/steam 1.0.0.83: Launcher for the Steam software distribution service Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.
 net-im/linuxqq 3.2.17: The new version of the official linux-qq
+net-im/linuxwechat 4.0.1.11: wechat from Tencent
 net-misc/rustdesk-bin 1.4.0: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer
 net-vpn/hiddify-bin 2.0.5: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.
 sys-kernel/barrensea-kernel 6.12.27 6.15.2: Linux Kernel with cjkpatch
-sys-kernel/linux-firmware 20250613: Linux firmware files
+sys-kernel/linux-firmware 20250613 20250627: Linux firmware files
