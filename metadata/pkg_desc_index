@@ -3,6 +3,7 @@ games-emulation/ryujinx 1.3.1: Experimental Nintendo Switch Emulator written in 
 games-emulation/ryujinx-bin 1.3.1: Experimental Nintendo Switch Emulator written in C#
 games-misc/hmcl 3.6.12: A Minecraft Launcher which is multi-functional, cross-platform and popular
 games-misc/steam 1.0.0.83: Launcher for the Steam software distribution service Steam is a software distribution service with an online store, automated installation, automatic updates, achievements, SteamCloud synchronized savegame and screenshot functionality, and many social features.
+games-roguelike/cataclysm-dda-bin 0h: A turn-based survival game set in a post-apocalyptic world
 net-im/linuxqq 3.2.17: The new version of the official linux-qq
 net-im/linuxwechat 4.0.1.11: wechat from Tencent
 net-misc/rustdesk-bin 1.4.0: An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer

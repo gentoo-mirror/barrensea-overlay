@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=sys-libs/zlib sys-libs/ncurses media-libs/libsdl2[video] media-libs/sdl2-image[png] media-libs/sdl2-ttf[harfbuzz] media-libs/libsdl2[sound] media-libs/sdl2-mixer[vorbis] media-fonts/unifont media-fonts/terminus-font
+DESCRIPTION=A turn-based survival game set in a post-apocalyptic world
+EAPI=8
+HOMEPAGE=https://cataclysmdda.org https://github.com/CleverRaven/Cataclysm-DDA
+INHERIT=unpacker desktop xdg-utils
+KEYWORDS=amd64
+LICENSE=CC-BY-SA-3.0 Apache-2.0 CC-BY-SA-4.0 MIT OFL-1.1 Unicode-3.0
+RDEPEND=sys-libs/zlib sys-libs/ncurses media-libs/libsdl2[video] media-libs/sdl2-image[png] media-libs/sdl2-ttf[harfbuzz] media-libs/libsdl2[sound] media-libs/sdl2-mixer[vorbis] media-fonts/unifont media-fonts/terminus-font
+SLOT=0h
+SRC_URI=https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/c/cataclysm-dda/cataclysm-dda-curses_0.H-1_amd64.deb -> curses.deb https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/c/cataclysm-dda/cataclysm-dda-data_0.H-1_all.deb -> data.deb https://mirrors.tuna.tsinghua.edu.cn/debian/pool/main/c/cataclysm-dda/cataclysm-dda-sdl_0.H-1_amd64.deb -> sdl.deb
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_md5_=f849433355047d3c925e3c1e3335627e
